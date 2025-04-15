@@ -8,12 +8,14 @@ import domain.Mamifero;
 
 public class AnimalViewModel{
 
+    ///variables de la clase
     private String especie;
     private int edad;
     private String sector;
     private double peso;
     private double valorFijo;
     private double porcentaje;
+    
 
     public AnimalViewModel(Mamifero animal) {
         if(animal == null) return;
